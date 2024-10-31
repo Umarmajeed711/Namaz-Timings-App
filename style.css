@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  height: 100vh;
+  font-family: "Lora", sans-serif;
+  background-image: url("goldenmoon.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.center {
+  border: 0px solid black;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.upperdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.blur {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.para {
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  text-align: center;
+  color: white;
+  padding: 0px 10px;
+  font-size: 16px;
+}
+
+.searchdiv {
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+  color: white;
+}
+
+.firstInput {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
